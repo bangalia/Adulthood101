@@ -4,20 +4,33 @@ body{
     justify-content: center;
 }
 
-nav.li{
+ cb.ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: darkgoldenrod;
+    justify-content: center;
 }
-
-ul{
-    list-style-type: square;
-}
-
 .card {
-    width: 400px;
+    width: 200px;
     margin: 1em;
     background-color: #eee;
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 }
+
+.card img {
+    width: 75%;
+}
+
+.card .caption {
+    position: absolute;
+    width: 283px;
+    height: 50px;
+    top: 40%;
+    left: 0px;
+    color: lightskyblue;
+    background: lightgrey;
+    text-align:center;
+    font-weight:bold;
+    opacity:0.7;
+  }
