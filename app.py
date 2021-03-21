@@ -8,7 +8,11 @@ def homepage():
     return render_template('home.html') 
 
 @app.route('/budget')
-def compliments():
+def budget():
     """Takes user the the page about budgeting"""
     return render_template('budget.html')
 
+@app.route('/credit')
+def credit():
+    """Takes user the the page about credit"""
+    return render_template('credit.html')
